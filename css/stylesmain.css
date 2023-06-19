@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Montserrat:wght@400;500;700&family=Poppins&family=Roboto&display=swap');
+
+
+body, html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(to right,#3780D7, #08C6FA);
+}
+
+header{
+    background: linear-gradient(to right,#3780D7, #08C6FA);
+    height: 40%;
+}
+
+.logo{
+    display:block;
+    margin:auto;
+    margin-top: -40px;
+}
+
+.welcome{
+    text-align: right;
+    padding-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-body{
+    background-color: white;
+    padding: 0.4em;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+.body-content {
+    margin-left: 30px;
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    padding: 30px 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.td-status{
+    padding-bottom: 20px;
+}
+
+.td-contact-us{
+    padding-bottom: 20px;
+}
+
+.td-verifikasi{
+    padding-bottom: 20px;
+}
+
+.td-pengiriman{
+    padding-top: 20px;
+}
+
+.box1 {
+    height: 116px;
+    width: 178px;
+    background: linear-gradient(to right, #3780D7, #11B9F3);
+    border-radius: 8px;
+}
+
+.box2 {
+    height: 116px;
+    width: 178px;
+    background: linear-gradient(to right, #ED8B18, #FFF505);
+    border-radius: 8px;
+}
+
+.box3 {
+    height: 116px;
+    width: 178px;
+    background: linear-gradient(to right, #0A7B31, #278E50);
+    border-radius: 8px;
+}
+
+.box4 {
+    height: 116px;
+    width: 178px;
+    background: linear-gradient(to right, #C71313, #F60B0B);
+    border-radius: 8px;
+}
+.box5 {
+    height: 116px;
+    width: 178px;
+    background: linear-gradient(to right, #8501C2, #A104EA);
+    border-radius: 8px;
+}
+.box6 {
+    height: 116px;
+    width: 178px;
+    background: linear-gradient(to right, #7B250A, #B2350E);
+    border-radius: 8px;
+}
+.box7 {
+    height: 116px;
+    width: 178px;
+    background: linear-gradient(to right, #0E987F, #0AE7BF);
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type='text'], input[type='file'], input[type='date'] {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tabel-cetak tr {
+    border: 1px solid black;
+}
+
+.a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+input[type='text'], input[type='file'], input[type='date'] {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    text-align: center;
+    padding-top: 5px;
+    background-color: white;
+    padding-left: 30px;
+}

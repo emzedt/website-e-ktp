@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Montserrat:wght@400;500;700&family=Poppins&family=Roboto&display=swap');
+
+
+body, html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(to right,#3780D7, #08C6FA);
+}
+
+header{
+    background: linear-gradient(to right,#3780D7, #08C6FA);
+    height: 40%;
+}
+
+.logo{
+    display:block;
+    margin:auto;
+    margin-top: -40px;
+}
+
+.welcome{
+    padding-top: 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-body{
+    background-color: white;
+    padding: 0.4em;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+.body-content {
+    margin-left: 30px;
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    padding: 30px 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.status {
+    margin: auto;
+    width: 900px;
+    height: 250px;
+    padding-left: 10%;
+    padding-top: 100px;
+}
+
+.status2{
+    margin: auto;
+    width: 900px;
+    height: 250px;
+    padding-left: 10%;
+    padding-top: 100px;
+}
+
+.container, .container2, .container3 {
+    float: left;
+}
+
+/* verif */
+.container {
+    width: 300px;
+    border: none;
+}
+
+.container p {
+    margin-right: 10px;
+    line-height: 1.3cm;
+}
+
+.circle {
+    position: relative;
+    margin-left: 28px;
+    background-color: #2ecc71;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.circle i {
+    padding: 15px 16px;
+}
+
+.garisverif {
+    width: 300px;
+    height: 6px;
+    margin-top: -30px;
+    background-color: #2ecc71;
+    border: none;
+    margin-left: 28px;
+}
+/* akhir verif */
+
+/* rekam */
+.container2 {
+    width: 300px;
+    border: none;
+}
+
+.container2 p {
+    margin-right: 10px;
+    line-height: 1.3cm;
+}
+
+.circle {
+    margin-left: 28px;
+    background-color: #2ecc71;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 999999;
+    position: relative;
+}
+
+.circle i {
+    padding: 15px 16px;
+}
+
+.garisrekam {
+    width: 300px;
+    height: 6px;
+    margin-top: -30px;
+    border: none;
+    margin-left: 28px;
+}
+/* rekam */
+
+/* kirim */
+.container3 {
+    width: 300px;
+    border: none;
+}
+
+.container3 p {
+    margin-top: -10px;
+    margin-right: 10px;
+    line-height: 1.3cm;
+}
+
+.container3 .circle2 {
+    margin-left: 28px;
+    background-color: #D9D9D9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.circle2 i {
+    padding: 15px 16px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.outer-wrapper{
+    box-shadow: 0px 0px 3px black;
+    border-radius: 10px;
+    max-width: fit-content;
+}
+
+.table-wrapper{
+    max-height: 300px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 5px;
+    background-color: white;
+}

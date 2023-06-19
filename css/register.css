@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Monoton&family=Montserrat:wght@400;500;700&family=Poppins&family=Roboto&display=swap');
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: #B2B2B2;
+
+}
+
+header{
+    height: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 0.4em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.box-content{
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+}
+
+.title-regis{
+    text-align: center;
+}
+
+.inputName{
+    margin: 0;
+    position: relative;
+}
+
+.inputName input{
+    position: relative;
+    width: 96.5%;
+    padding: 1em;
+}
+
+.inputPass{
+    margin-top: 10px;
+    position: relative;
+}
+
+.inputPass input{
+    position: relative;
+    width: 96.5%;
+    padding: 1em;
+}
+
+.inputRePass{
+    margin-top: 10px;
+    position: relative;
+}
+
+.inputRePass input{
+    position: relative;
+    width: 96.5%;
+    padding: 1em;
+}
+
+.inputReg{
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+
+}
+
+.inputReg .btn{
+    background-color: #1388CB;
+    border-color: #1388CB;
+    cursor: pointer;
+    width: 30%;
+    padding: 1em;
+       
+}
+
+.inputLog{
+    position: relative;
+    margin-top: 1%;
+    text-align: center;
+    width: 100%;
+}
+
+.inputLog .btnLog{
+    background-color: white;
+    border-color: #47B5FF;
+    width: 30%;
+    padding: 1em;
+}
+
+.inputLog .btnLog a{
+    color: #1388CB;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    padding-top: 5px;
+
+}
